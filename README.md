@@ -5,7 +5,7 @@
 ###Step 1.
 ```html
 <!-- jQuery library -->
-<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="lib/jquery-1.11.3.min.js" type="text/javascript"></script>
 <!--file Javascript -->
 <script src="lib/saiSelect.js" type="text/javascript"></script>
 <!-- file of styles -->
