@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'robotolight';
+  src: url("../fonts/roboto-light-webfont.eot");
+  src: url("../fonts/roboto-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-light-webfont.woff2") format("woff2"), url("../fonts/roboto-light-webfont.woff") format("woff"), url("../fonts/roboto-light-webfont.ttf") format("truetype"), url("../fonts/roboto-light-webfont.svg#robotolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+form {
+  width: 600px;
+  margin: 220px auto 0; }
+
+.select_wrapper {
+  position: relative;
+  margin: 0 0 10px;
+  transition: 0.5s; }
+  .select_wrapper:hover input.select {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2); }
+  .select_wrapper .input_wrapper {
+    position: relative; }
+    .select_wrapper .input_wrapper .layer {
+      line-height: 50px;
+      min-height: 50px;
+      z-index: 10;
+      padding: 0 0 0 20px;
+      cursor: pointer;
+      position: relative;
+      border: 1px solid #ebebeb;
+      background-color: #fff;
+      color: #333;
+      transition: 0.5s; }
+      .select_wrapper .input_wrapper .layer:hover {
+        color: #292c33;
+        box-shadow: 0px 0 30px rgba(0, 0, 0, 0.2); }
+      .select_wrapper .input_wrapper .layer:after {
+        content: "\f107";
+        font-family: "FontAwesome";
+        position: absolute;
+        right: 3%;
+        line-height: 50px;
+        transition: 0.5s; }
+    .select_wrapper .input_wrapper .layer.active {
+      transition: 0.5s; }
+    .select_wrapper .input_wrapper .layer.active {
+      color: #292c33;
+      box-shadow: 0px 0 30px rgba(0, 0, 0, 0.2); }
+  .select_wrapper .saiselect {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    z-index: 100;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    left: 0px;
+    top: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2); }
+    .select_wrapper .saiselect li {
+      padding: 0px 0 0px 20px;
+      border-bottom: 1px solid #ebebeb;
+      cursor: pointer;
+      background-color: #fff;
+      -moz-user-select: none;
+      line-height: 50px;
+      margin: 0;
+      list-style: none;
+      font-size: 14px;
+      transition: 0.5s; }
+      .select_wrapper .saiselect li:first-child {
+        border-top: 1px solid #ebebeb; }
+      .select_wrapper .saiselect li:hover {
+        background-color: #f0f0f0; }
+
+/*# sourceMappingURL=style.css.map */
