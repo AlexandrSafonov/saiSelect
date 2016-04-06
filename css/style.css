@@ -91,6 +91,7 @@ form {
     .select_wrapper .input_wrapper .layer {
       line-height: 50px;
       min-height: 50px;
+      font-family: 'robotolight';
       z-index: 10;
       padding: 0 0 0 20px;
       cursor: pointer;
@@ -110,8 +111,7 @@ form {
         line-height: 50px;
         transition: 0.5s; }
     .select_wrapper .input_wrapper .layer.active {
-      transition: 0.5s; }
-    .select_wrapper .input_wrapper .layer.active {
+      transition: 0.5s;
       color: #292c33;
       box-shadow: 0px 0 30px rgba(0, 0, 0, 0.2); }
   .select_wrapper .saiselect {
@@ -123,7 +123,7 @@ form {
     border-left: 1px solid #ebebeb;
     border-right: 1px solid #ebebeb;
     left: 0px;
-    top: 49px;
+    top: 50px;
     box-sizing: border-box;
     margin: 0;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2); }
@@ -138,8 +138,6 @@ form {
       list-style: none;
       font-size: 14px;
       transition: 0.5s; }
-      .select_wrapper .saiselect li:first-child {
-        border-top: 1px solid #ebebeb; }
       .select_wrapper .saiselect li:hover {
         background-color: #f0f0f0; }
 
