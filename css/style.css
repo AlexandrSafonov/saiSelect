@@ -141,4 +141,15 @@ form {
       .select_wrapper .saiselect li:hover {
         background-color: #f0f0f0; }
 
+input[type='submit'] {
+  background-color: #64A8D1;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 15px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  height: 50px; }
+
 /*# sourceMappingURL=style.css.map */
